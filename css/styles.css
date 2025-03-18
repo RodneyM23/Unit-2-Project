@@ -6,6 +6,7 @@
 }
 
 body {
+    text-align: center;
     margin: 0 auto;
     max-width: 1024px;
     display: flex;
@@ -126,7 +127,9 @@ nav {
   .full {
     display: none;
   }
-
+h4 {
+float: left;
+}
 
     
     
