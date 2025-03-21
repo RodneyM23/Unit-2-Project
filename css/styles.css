@@ -98,7 +98,7 @@ nav {
     /* background-color: #9A2617; */
   }
   .center {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -106,10 +106,10 @@ nav {
   h2 {text-align: center;
     }
   .port-images {
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    margin: 0, auto;
     max-width: 90%;
-    height: auto;
+    
   }
   footer {
     background-color: lightgray;
@@ -142,7 +142,7 @@ font-weight: bold;
     flex-wrap: wrap;
   }
 @media screen and (min-width: 768px) {
-     ul.top-nav , h1{
+     ul.top-nav , h1 {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -156,9 +156,14 @@ font-weight: bold;
       padding: 30px;
       }
       div.container {
-        display:flex;
+        display: flex;
+        flex-flow: row;
+        flex-direction: row;
         flex-wrap: wrap;
+    
       }
+        
+    
         
         
       
@@ -167,4 +172,5 @@ font-weight: bold;
 
   @media screen and (min-width: 1024px) {
     
+}
 }
