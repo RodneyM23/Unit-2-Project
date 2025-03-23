@@ -4,6 +4,9 @@
     padding: 0px;
 
 }
+div.header-info{
+  font-family: 'Lora';
+}
 
 
 body {
@@ -21,6 +24,7 @@ body {
 ul {
     list-style: none;
     padding-left: 0;
+    font-weight: bold;
 }
 a {
     text-decoration: none;
@@ -79,7 +83,7 @@ nav {
     /* background-color: #093145; */
    
   }
-  
+   
   .box-2 {
     /* background-color: #3C6478; */
   }
@@ -108,8 +112,8 @@ nav {
   h2 {text-align: center;
     }
   .port-images {
-    display: flex;
-    margin: 0, auto;
+    display: block;
+    margin: 0 auto 15px;
     max-width: 90%;
     
   }
@@ -148,6 +152,7 @@ font-weight: bold;
       display: flex;
       flex-direction: row;
       justify-content: center;
+      font-weight: bold;
      }
      .header-info {
       display: flex;
@@ -165,7 +170,7 @@ font-weight: bold;
         flex-basis: 100%
       }
     .container .col {
-      flex-basis: calc(50% - 30px)
+      flex-basis: calc(50% - 30px);
       }
       .top {
         display: none;
@@ -181,6 +186,22 @@ font-weight: bold;
       .container .col {
           flex-basis: calc(33.33% - 20px);
       }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+      .top-nav, .top-nav li {
+        width: initial;
+        margin-bottom: 0;
+      }
+      .top-nav {
+        display: flex;
+        gap: 20px;
+        font-weight: bold;
+      }
+    
   }
 
       
